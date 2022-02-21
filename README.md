@@ -197,7 +197,7 @@ docker run --name nicolas --rm -v /home/data:/data -v /home/output:/output nicol
 - Jinlong Zhang J. Package 'spaa' - The Comprehensive R Archive Network. 2016, cran.r-project.org, Version 0.2.2
 - Radomski N., Cadel-Six S., Cherchame E., Felten A., Barbet P., Palma F., Mallet L., Le Hello S., Weill F.X., Guillier L. and Mistou M.Y. 1 A Simple and Robust Statistical Method to Define Genetic Relatedness of Samples Related to Outbreaks at the Genomic Scale - Application to Retrospective Salmonella Foodborne Outbreak Investigations. 2019, Frontiers in Microbiology, 10(2413): 1-13
 - First version: https://github.com/lguillier/matrix2association
-- Docker: https://hub.docker.com/repository/docker/nicolasradomski/pairwisedifferencestononparametric
+- Docker Hub: https://hub.docker.com/repository/docker/nicolasradomski/pairwisedifferencestononparametric
 # Acknowledgment
 Adriano Di Pasquale for our discussions about algorithmic approaches
 # Author
