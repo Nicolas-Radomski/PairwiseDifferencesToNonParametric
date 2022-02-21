@@ -195,7 +195,8 @@ docker run --name nicolas --rm -v /home/data:/data -v /home/output:/output nicol
 ![Non-parametric figure](https://github.com/Nicolas-Radomski/PairwiseDifferencesToNonParametric/blob/main/illustration.png)
 # References
 - Jinlong Zhang J. Package 'spaa' - The Comprehensive R Archive Network. 2016, cran.r-project.org, Version 0.2.2
-- First version: Radomski N., Cadel-Six S., Cherchame E., Felten A., Barbet P., Palma F., Mallet L., Le Hello S., Weill F.X., Guillier L. and Mistou M.Y. 1 A Simple and Robust Statistical Method to Define Genetic Relatedness of Samples Related to Outbreaks at the Genomic Scale - Application to Retrospective Salmonella Foodborne Outbreak Investigations. 2019, Frontiers in Microbiology, 10(2413): 1-13
+- Radomski N., Cadel-Six S., Cherchame E., Felten A., Barbet P., Palma F., Mallet L., Le Hello S., Weill F.X., Guillier L. and Mistou M.Y. 1 A Simple and Robust Statistical Method to Define Genetic Relatedness of Samples Related to Outbreaks at the Genomic Scale - Application to Retrospective Salmonella Foodborne Outbreak Investigations. 2019, Frontiers in Microbiology, 10(2413): 1-13
+- First version: https://github.com/lguillier/matrix2association
 # Acknowledgment
 Adriano Di Pasquale for our discussions about algorithmic approaches
 # Author
