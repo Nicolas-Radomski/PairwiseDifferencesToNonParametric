@@ -161,10 +161,8 @@ new_packages <- installed.packages()
 missing_packages <- as.data.frame(old_packages[!old_packages[, "Package"] %in% new_packages[, "Package"],])
 install.packages(missing_packages$Package)
 ```
-# Start
-
 # Install R dependencies and launch with R
-## Install dependencies from the R console
+## 1/ Install dependencies from the R console
 The R scripts PairwiseDifferences2NonParametric.R (detailed algorithm with Rstudio) and PairwiseDifferencesToNonParametric.R (automatic algorithm with Rscript) were prepared and tested with R version 4.1.2 and RStudio 2021.09.1.
 ```
 install.packages("benchmarkme")
@@ -172,24 +170,24 @@ install.packages("data.table")
 install.packages("spaa")
 install.packages("scales")
 ```
-## Launch each command from Rstudio (i.e. PairwiseDifferences2NonParametric.R detailed algorithm)
+## 2/ Launch each command from Rstudio (i.e. PairwiseDifferences2NonParametric.R detailed algorithm)
 ```
 git clone https://github.com/Nicolas-Radomski/PairwiseDifferencesToNonParametric.git
 cd PairwiseDifferencesToNonParametric
 rstudio PairwiseDifferences2NonParametric.R
 ```
-## Launch the whole script from Rscript (i.e. PairwiseDifferencesToNonParametric.R automatic algorithm)
+## 3/ Launch the whole script from Rscript (i.e. PairwiseDifferencesToNonParametric.R automatic algorithm)
 ```
 git clone https://github.com/Nicolas-Radomski/PairwiseDifferencesToNonParametric.git
 cd PairwiseDifferencesToNonParametric
 Rscript PairwiseDifferencesToNonParametric.R Profiles.csv Types.csv
 ```
 # Install Docker image and launch with Docker
-## Pull Docker image from Docker Hub
+## 1/ Pull Docker image from Docker Hub
 ```
 docker pull nicolasradomski/pairwisedifferencestononparametric
 ```
-## Launch with Docker and different paired-trees
+## 2/ Launch with Docker and different paired-trees
 ```
 docker run --name nicolas --rm -v /home/data:/data -v /home/output:/output nicolasradomski/pairwisedifferencestononparametric:latest sh -c 'Rscript code/PairwiseDifferencesToNonParametric.R data/Profiles.csv data/Types.csv' > output/std.log 2>&1
 ```
