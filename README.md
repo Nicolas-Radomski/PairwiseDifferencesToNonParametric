@@ -187,7 +187,7 @@ Rscript PairwiseDifferencesToNonParametric.R Profiles.csv Types.csv
 ```
 docker pull nicolasradomski/pairwisedifferencestononparametric
 ```
-## 2/ Launch with Docker and different paired-trees
+## 2/ Launch with Docker and input files
 ```
 docker run --name nicolas --rm -v /home/data:/data -v /home/output:/output nicolasradomski/pairwisedifferencestononparametric:latest sh -c 'Rscript code/PairwiseDifferencesToNonParametric.R data/Profiles.csv data/Types.csv' > output/std.log 2>&1
 ```
