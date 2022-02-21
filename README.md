@@ -163,7 +163,7 @@ install.packages(missing_packages$Package)
 ```
 # Start
 
-# Install R dependencies and launch with Rstudio or Rscript
+# Install R dependencies and launch with R
 ## Install dependencies from the R console
 The R scripts PairwiseDifferences2NonParametric.R (detailed algorithm with Rstudio) and PairwiseDifferencesToNonParametric.R (automatic algorithm with Rscript) were prepared and tested with R version 4.1.2 and RStudio 2021.09.1.
 ```
